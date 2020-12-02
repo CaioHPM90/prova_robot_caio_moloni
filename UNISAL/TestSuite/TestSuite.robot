@@ -2,7 +2,7 @@
 Documentation    Suite description
 Resource    ../Functions/Teste_Keywords.robot
 Test Setup      Create Session      Session     ${HOST_GITHUB}  verify=True     
-Test Teardown    
+Test Teardown       Disconnect From Database 
 
 *** Test Cases ***
 
@@ -19,5 +19,5 @@ List directory
     List all files on dir
 
 Exclude archive and log results
-    Exclude and show results
+    Exclude file and log data   
 

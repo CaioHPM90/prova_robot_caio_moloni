@@ -6,7 +6,7 @@ Library     Collections
 Library     DatabaseLibrary
 
 *** Variables ***
-${HOST_GITHUB}     https://api.github.com/repos/davimargelo/robot_db
+${HOST_GITHUB}     https://api.github.com/repos/CaioHPM90/prova_robot_caio_moloni
 
 *** Keywords ***
 Connect to Git Repository and log issues    
